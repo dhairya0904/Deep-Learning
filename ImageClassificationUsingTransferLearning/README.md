@@ -21,27 +21,28 @@ Model class methods:
 
 Data should be in following order:
 
-data
-	train
-		class1
-			class1-001.jpeg
-			class1-002.jpeg
-			.........
-		class2
-			class2-001.jpeg
-			class2-002.jpeg
-			.........
 
-	test
-		class1
-			class1-001.jpeg
-			class1-002.jpeg
-			.........
+	data
+		train
+			class1
+				class1-001.jpeg
+				class1-002.jpeg
+				.........
+			class2
+				class2-001.jpeg
+				class2-002.jpeg
+				.........
 
-		class2
-			class1-001.jpeg
-			class1-002.jpeg
-			.........
+		test
+			class1
+				class1-001.jpeg
+				class1-002.jpeg
+				.........
+
+			class2
+				class1-001.jpeg
+				class1-002.jpeg
+				.........
 
 
 There should be a training data directory and validation data directory containing one subdirectory per image class, filled with .png or .jpg images
