@@ -16,14 +16,14 @@ Model class methods:
 		Arguments - test_features
 		return - class labels
 
-Data should be in following order:
+Data should be in following order
+
 data:
 	train:
 		class1
 			class1-001.jpeg
 			class1-002.jpeg
 			.........
-
 		class2
 			class2-001.jpeg
 			class2-002.jpeg
