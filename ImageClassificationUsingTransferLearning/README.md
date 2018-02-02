@@ -2,7 +2,9 @@
 
 model.py contains Model class that uses transfer learning with pre-trained vgg 16 model to classify images. Notebook contains detailed explanation about use of class. Model does not take much time to train.
 
-Model class methods
+Model class methods:
+
+
 	generateData
 		Arguments - path of train or test data
 		return  - features, labels, ImageDataGenerator
@@ -16,7 +18,8 @@ Model class methods
 		Arguments - test_features
 		return - class labels
 
-Data should be in following order
+
+Data should be in following order:
 
 data
 	train
