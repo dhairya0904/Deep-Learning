@@ -1,10 +1,10 @@
 # Image Classification Using Transfer learning
 
-#Overview
+## Overview
 Classification of images is done using the transfer learning. Model use the pre-trained Vgg16 model to extract features and then training is done on different network.
 This makes training fast and efficient without use of much computational power.
 
-#USE
+## USE
 model.py contains Model class that uses transfer learning with pre-trained vgg 16 model to classify images. Notebook contains detailed explanation about use of class. Model does not take much time to train.
 
 Model class methods:
